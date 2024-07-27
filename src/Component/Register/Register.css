@@ -1,0 +1,16 @@
+.main_register_div{
+    background: linear-gradient(to right, #DAE7F7, #CCE3F5, #EFF3FF) ;
+    height:40rem
+}
+.heading_register{
+    color:#3161F1;
+    font-family:'knewave', sans-serif ;
+    margin-left: 150px;
+    font-size: 2.5rem;
+}
+.form_data input{
+    height: 40px;
+    width: 250px;
+    margin-left: 150px;
+    margin-top: -20px;
+}

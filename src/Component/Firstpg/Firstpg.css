@@ -1,0 +1,202 @@
+
+.main_box{
+   
+    background: linear-gradient(to right, #DAE7F7, #CCE3F5, #EFF3FF)  
+}
+.firstpg_Maindiv{
+  
+    display: flex;
+    align-items: center;
+}
+
+/* LOGO TEXT CSS */
+.logo img{
+    height: 120px;
+    width: 120px;
+    margin-left: 25px;
+}
+.logo P{
+   font-family: 'Roboto Flex', sans-serif;
+   font-style: italic;
+   font-weight: bold;
+   font-size: 30px;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+/* NAVBARB LIST DIV */
+.nav_div{
+    display: flex;
+    margin-left: 50px;
+
+}
+.nav_div li{
+    list-style: none;
+   margin-left: 40px;
+   color: #8D94AF;
+   font-family:  'Poppins', sans-serif;
+   font-weight: bold;
+   margin-top: 30px;
+}
+.nav_div li:hover{
+    color: #3161F1;
+    cursor: pointer;
+}
+/* sign in and register btn div */
+.sign_register_btn p{
+    color:#3161F1 ;
+    font-family:  'Poppins', sans-serif;
+    font-weight: bold;
+}
+.sign_register_btn{
+    display: flex;
+    margin-left: 580px;
+    margin-top: 30px;
+
+}
+.sign_register_btn button{
+    color: #343538;
+    font-family: 'Poppins';
+    font-weight: bold;
+    border-radius: 20px;
+    background: white;
+    height: 50px;
+    width: 150px;
+    margin-left: 50px;
+    border-color: transparent;
+}
+
+/* Second text div */
+.second_div {
+    display: flex;
+    margin-left: 120px;
+    margin-top: 20px;
+font-size: 2rem;
+   
+    font-family: 'knewave', sans-serif;
+}
+.blue_text{
+    color:#3161F1
+    
+}
+.crmhrm_text{
+    margin-left: 120px;
+    font-size: 1.5rem;
+   margin-top: -30px;
+   font-family: 'knewave', sans-serif;
+   color: #939393;
+}
+
+/* THIRD DIV IMAGE USERNAME PASSWORD */
+.third_div{
+    margin-top: 40px;
+    display: flex;
+    height: 600px;
+    justify-content: space-between;
+}
+/* .left_div{
+   margin-left: 60px;
+   }
+   .left_div img{
+margin-left: 100px;
+width: 350px;
+   } */
+   .right_div {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    width: 300px;
+margin-right: 300px;
+  }
+  .right_div input {
+    padding: 10px;
+    background: #DFE6F9;
+    font-size: 16px;
+    font-family:'Roboto Flex', sans-serif ;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    height: 45px; 
+  }
+  .forget{
+    color: #8D94AF;
+    margin-left:170px;
+    margin-top: 10px;
+    font-family: 'Roboto Flex', sans-serif;
+  }
+  .signin{
+    height: 45px;
+    width: 300px;
+    color: white;
+    background: #3161F1;
+    border: 1px solid transparent;
+    border-radius: 15px;
+
+  }
+  .continue{
+    color: #8D94AF;
+    margin-left:20px;
+    margin-top: 10px;
+    font-family: 'Roboto Flex', sans-serif;
+  }
+  .googlebtn{
+    height: 45px;
+    width: 300px;
+    color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background: white;
+   font-family:'Roboto Flex', sans-serif ;
+    color: #939CBC;
+  }
+  .googlebtn img{
+    height: 30px;
+    width: 30px;
+
+
+  }
+  .google_text{
+    margin-left: 10px;
+  }
+
+/* Carousel container */
+.left_div {
+    width: 500px; 
+    margin-left: 50px; 
+  }
+  
+  /* Individual carousel slide */
+  .carousel-slide {
+    position: relative;
+    width: 100%; 
+    height: auto; 
+    overflow: hidden;
+    text-align: center; 
+    padding: 10px; 
+  }
+  
+  /* Image styling */
+  .carousel-slide img {
+    width: 330px;
+    height: 330px;
+    margin-top: 20px;
+    margin-left: 130px;
+    object-fit: cover; 
+    border-radius: 10px; 
+  }
+  
+  /* Text styling */
+  .carousel-text {
+    margin-top: 10px; 
+    color: black; 
+    
+    font-size: 14px; 
+    font-weight: bold; 
+  }
+  
