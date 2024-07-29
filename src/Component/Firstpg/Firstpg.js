@@ -11,10 +11,13 @@ function Firstpg() {
    function handle_register(){
     navigate('/register')
    }
+   function home(){
+    navigate('/home')
+   }
 
     const carouselSlides = [
-        { img: tableman, text: "Meaningful alt text for Image 1" },
-        { img: tableman, text: "Meaningful alt text for Image 2" },
+        { img: tableman, text: "Meaningful alt text for Image 1nnnnnnnn nnnnnnnnnnn jjjjjjjjjjjjjj" },
+        { img: tableman, text: "Meaningful altlorem23mkfkrn jnrg jrgjmmmmmmmmmmm kkkkkkkkk kkkkkkkkkkkk jjjjjjjjjjj text for Image 2" },
         { img: tableman, text: "Meaningful alt text for Image 3" },
         { img: tableman, text: "Meaningful alt text for Image 4" },
         // Add more slides as needed
@@ -37,7 +40,7 @@ function Firstpg() {
         </div>
         <div className='nav_div'>
         <ul className='nav_div'>
-            <li>
+            <li onClick={home}>
                 HOME
             </li>
             <li>

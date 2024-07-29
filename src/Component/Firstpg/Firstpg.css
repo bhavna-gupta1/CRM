@@ -1,202 +1,313 @@
-
-.main_box{
-   
-    background: linear-gradient(to right, #DAE7F7, #CCE3F5, #EFF3FF)  
+.main_box {
+  background: linear-gradient(to right, #DAE7F7, #CCE3F5, #EFF3FF);
+  padding: 20px;
+  height: 100vh;
 }
-.firstpg_Maindiv{
-  
-    display: flex;
-    align-items: center;
+
+.firstpg_Maindiv {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 /* LOGO TEXT CSS */
-.logo img{
-    height: 120px;
-    width: 120px;
-    margin-left: 25px;
+.logo img {
+  height: 100px;
+  width: 100px;
+  margin-left: 15px;
 }
-.logo P{
-   font-family: 'Roboto Flex', sans-serif;
-   font-style: italic;
-   font-weight: bold;
-   font-size: 30px;
 
+.logo p {
+  font-family: 'Roboto Flex', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 24px;
 }
-.logo{
-    display: flex;
-    align-items: center;
-    margin-top: 30px;
-}
-/* NAVBARB LIST DIV */
-.nav_div{
-    display: flex;
-    margin-left: 50px;
 
+.logo {
+  display: flex;
+  align-items: center;
+  /* margin-top: 50px; */
 }
-.nav_div li{
-    list-style: none;
-   margin-left: 40px;
-   color: #8D94AF;
-   font-family:  'Poppins', sans-serif;
-   font-weight: bold;
-   margin-top: 30px;
+
+/* NAVBAR LIST DIV */
+.nav_div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 80px;
 }
-.nav_div li:hover{
-    color: #3161F1;
-    cursor: pointer;
+
+.nav_div li {
+  list-style: none;
+  margin-left: 20px;
+  color: #8D94AF;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
 }
+
+.nav_div li:hover {
+  color: #3161F1;
+  cursor: pointer;
+}
+
 /* sign in and register btn div */
-.sign_register_btn p{
-    color:#3161F1 ;
-    font-family:  'Poppins', sans-serif;
-    font-weight: bold;
+.sign_register_btn p {
+  color: #3161F1;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
 }
-.sign_register_btn{
-    display: flex;
-    margin-left: 580px;
-    margin-top: 30px;
 
+.sign_register_btn {
+  display: flex;
+  margin-top: 20px;
 }
-.sign_register_btn button{
-    color: #343538;
-    font-family: 'Poppins';
-    font-weight: bold;
-    border-radius: 20px;
-    background: white;
-    height: 50px;
-    width: 150px;
-    margin-left: 50px;
-    border-color: transparent;
+
+.sign_register_btn button {
+  color: #343538;
+  font-family: 'Poppins';
+  font-weight: bold;
+  border-radius: 20px;
+  background: white;
+  height: 50px;
+  width: 150px;
+  margin-left: 20px;
+  border-color: transparent;
 }
 
 /* Second text div */
 .second_div {
-    display: flex;
-    margin-left: 120px;
-    margin-top: 20px;
-font-size: 2rem;
-   
-    font-family: 'knewave', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 2rem;
+  font-family: 'knewave', sans-serif;
 }
-.blue_text{
-    color:#3161F1
-    
+
+.blue_text {
+  color: #3161F1;
 }
-.crmhrm_text{
-    margin-left: 120px;
-    font-size: 1.5rem;
-   margin-top: -30px;
-   font-family: 'knewave', sans-serif;
-   color: #939393;
+
+.crmhrm_text {
+  margin-left: 20px;
+  font-size: 1.5rem;
+  margin-top: -30px;
+  font-family: 'knewave', sans-serif;
+  color: #939393;
 }
 
 /* THIRD DIV IMAGE USERNAME PASSWORD */
-.third_div{
-    margin-top: 40px;
-    display: flex;
-    height: 600px;
-    justify-content: space-between;
+.third_div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  height: 600px;
 }
-/* .left_div{
-   margin-left: 60px;
-   }
-   .left_div img{
-margin-left: 100px;
-width: 350px;
-   } */
-   .right_div {
-    display: flex;
-    flex-direction: column; 
-    gap: 10px; 
-    width: 300px;
-margin-right: 300px;
-  }
-  .right_div input {
-    padding: 10px;
-    background: #DFE6F9;
-    font-size: 16px;
-    font-family:'Roboto Flex', sans-serif ;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    box-sizing: border-box; 
-    height: 45px; 
-  }
-  .forget{
-    color: #8D94AF;
-    margin-left:170px;
-    margin-top: 10px;
-    font-family: 'Roboto Flex', sans-serif;
-  }
-  .signin{
-    height: 45px;
-    width: 300px;
-    color: white;
-    background: #3161F1;
-    border: 1px solid transparent;
-    border-radius: 15px;
 
-  }
-  .continue{
-    color: #8D94AF;
-    margin-left:20px;
-    margin-top: 10px;
-    font-family: 'Roboto Flex', sans-serif;
-  }
-  .googlebtn{
-    height: 45px;
-    width: 300px;
-    color: white;
+/* LEFT DIV */
+.left_div {
+  width: 35%;
+  margin-left: 50px; /* Increased left margin */
+}
+
+/* Carousel container */
+.carousel-slide {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Image styling */
+.carousel-slide img {
+  width: 90%;
+  height: auto;
+  max-width: 300px;
+  margin: 0 auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Text styling */
+.carousel-text {
+  margin-top: 10px;
+  color: #343538;
+  font-size: 16px;
+  font-family: 'MV Boli', sans-serif;
+  /* font-weight: bold; */
+}
+
+/* RIGHT DIV */
+.right_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 30%;
+  margin-right: 50px;
+}
+
+.right_div input {
+  padding: 10px;
+  background: #DFE6F9;
+  font-size: 14px;
+  font-family: 'Roboto Flex', sans-serif;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 50px;
+  width: 350px;
+}
+
+.forget {
+  color: #8D94AF;
+  font-family: 'Roboto Flex', sans-serif;
+  text-align: right;
+  width: 350px;
+  font-size: 12px; /* Smaller font size */
+}
+
+.signin {
+  height: 50px;
+  width: 350px;
+  color: white;
+  background: #3161F1;
+  border: 1px solid transparent;
+  border-radius: 15px;
+}
+
+.continue {
+  color: #8D94AF;
+  font-family: 'Roboto Flex', sans-serif;
+  text-align: center;
+  width: 350px;
+}
+
+.googlebtn {
+  height: 50px;
+  width: 350px;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-    border: 1px solid transparent;
-    border-radius: 15px;
-    background: white;
-   font-family:'Roboto Flex', sans-serif ;
-    color: #939CBC;
-  }
-  .googlebtn img{
-    height: 30px;
-    width: 30px;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  background: white;
+  font-family: 'Roboto Flex', sans-serif;
+  color: #939CBC;
+}
 
+.googlebtn img {
+  height: 25px;
+  width: 25px;
+}
 
-  }
-  .google_text{
-    margin-left: 10px;
+.google_text {
+  margin-left: 10px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+  .firstpg_Maindiv {
+      flex-direction: column;
+      align-items: center;
   }
 
-/* Carousel container */
-.left_div {
-    width: 500px; 
-    margin-left: 50px; 
+  .nav_div {
+      justify-content: center;
+      margin-left: 0;
   }
-  
-  /* Individual carousel slide */
-  .carousel-slide {
-    position: relative;
-    width: 100%; 
-    height: auto; 
-    overflow: hidden;
-    text-align: center; 
-    padding: 10px; 
+
+  .nav_div li {
+      margin: 10px;
   }
-  
-  /* Image styling */
+
+  .sign_register_btn {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+  }
+
+  .sign_register_btn button {
+      margin-left: 0;
+      margin-top: 10px;
+  }
+
+  .second_div {
+      justify-content: center;
+      margin-left: 0;
+  }
+
+  .crmhrm_text {
+      margin-left: 0;
+      text-align: center;
+  }
+
+  .third_div {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .left_div {
+      width: 90%;
+      margin-left: 30px; /* Adjust left margin for smaller screens */
+  }
+
+  .right_div {
+      width: 90%;
+      margin: 20px 0;
+  }
+
   .carousel-slide img {
-    width: 330px;
-    height: 330px;
-    margin-top: 20px;
-    margin-left: 130px;
-    object-fit: cover; 
-    border-radius: 10px; 
+      max-width: 100%;
   }
-  
-  /* Text styling */
-  .carousel-text {
-    margin-top: 10px; 
-    color: black; 
-    
-    font-size: 14px; 
-    font-weight: bold; 
+
+  .right_div input, .signin, .continue, .googlebtn {
+      width: 90%; /* Adjust width for smaller screens */
   }
-  
+
+  .forget {
+      text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo img {
+      height: 60px;
+      width: 60px;
+  }
+
+  .logo p {
+      font-size: 20px;
+  }
+
+  .second_div {
+      font-size: 1.5rem;
+      text-align: center;
+  }
+
+  .crmhrm_text {
+      font-size: 1.2rem;
+  }
+
+  .left_div {
+      width: 90%;
+      margin-left: 20px; /* Further adjust left margin for very small screens */
+  }
+
+  .right_div input, .signin, .continue, .googlebtn {
+      width: 90%; /* Adjust width for very small screens */
+  }
+
+  .signin, .googlebtn {
+      font-size: 14px;
+  }
+
+  .forget {
+      text-align: center;
+  }
+}

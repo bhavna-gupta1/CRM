@@ -1,0 +1,81 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Knewave', sans-serif; 
+}
+
+.home_content_div {
+    position: relative; 
+    height: 100vh; 
+}
+
+.home_content {
+    position: absolute;
+    top: 100px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    text-align: center; 
+}
+
+.blue_head {
+    color:#3161F1; 
+    font-size: 3rem;
+    /* width: 400px;  */
+    font-family: 'Knewave', sans-serif; 
+    margin: 0; 
+}
+
+.grey_head {
+    color: #8D94AF;
+    font-size: 2rem; 
+    font-family: 'Knewave', sans-serif; 
+    margin: 0; 
+}
+/* .product_item{
+    height: 6rem;
+    width: 7rem;
+    border-radius: 10px;
+    margin-top: 60px;
+    background: white;
+} */
+.product_item_list {
+    display: flex;
+    width: 700px;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    padding: 20px; 
+    margin-top: 40px;
+}
+
+.product_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    height: 7rem;
+    width: 7rem; /* Adjust width to fit 4 items per row */
+    border-radius: 10px;
+    padding: 40px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: for a slight shadow */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.product_image {
+    width: 2rem; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 0.5rem; 
+    margin-top: 30px;
+}
+
+.product_name {
+    font-size: 0.9rem; /* Adjust font size as needed */
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto Flex', sans-serif;
+    color: #333; /* Adjust text color as needed */
+}
+.product_item.selected {
+    border: 2px solid green; /* Green border when selected */
+}

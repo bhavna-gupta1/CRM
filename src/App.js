@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Firstpg from './Component/Firstpg/Firstpg';
 import Register from './Component/Register/Register';
+import Home from './Component/Home/Home';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Firstpg/>}/>
         <Route path="/register" element={<Register/>} />
+        <Route path='/home'  element={<Home/>}/>
         </Routes>
         </Router>
   </>

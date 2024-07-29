@@ -1,16 +1,175 @@
 .main_register_div{
     background: linear-gradient(to right, #DAE7F7, #CCE3F5, #EFF3FF) ;
-    height:40rem
+    /* height:40rem */
+    min-height: 100vh;
 }
 .heading_register{
     color:#3161F1;
     font-family:'knewave', sans-serif ;
-    margin-left: 150px;
-    font-size: 2.5rem;
+    margin-left: 160px;
+    font-size: 2rem;
+    width: 300px;
 }
-.form_data input{
+.form_data{
+align-items: center;
+
+}
+
+.logo_home_btn{
+    margin-left: 100px;
+    background: white;
     height: 40px;
-    width: 250px;
+    width: 90px;
+    border-radius: 10px;
+    border: none;
+    display: inline-block; /* Ensure width and height are applied */
+    box-sizing: border-box;
+}
+.fullname{
+    height: 55px;
+    width: 390px;
     margin-left: 150px;
     margin-top: -20px;
+    border-radius: 10px;
+    border: none;
+}
+.date_gender{
+    display: flex;
+   margin-top: 10px;
+   margin-left: 140px;
+   border-radius: 10px;
+   border: none;
+}
+.date_gender input{
+    width: 190px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.date_gender select{
+    width: 190px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.Phone_number{
+    height: 55px;
+    width: 390px;
+    margin-left: 150px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+.otp{
+    display: flex;
+   margin-top: 10px;
+   margin-left: 140px;
+   
+}
+.otp input{
+    width: 190px;
+    height: 55px;
+    margin-left: 10px; 
+    border-radius: 10px;
+    border: none;
+}
+.otp button{
+    background: #3161F1;
+    color: white;
+    width: 140px;
+    height: 55px;
+    margin-left: 60px;
+    border-radius: 40px;
+    font-weight: bold;
+    border: none;
+}
+.resend{
+    margin-left: 150px;  
+    color: #1976D2;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family:'Roboto Flex', sans-serif ;
+    
+}
+.email{
+    height: 55px;
+    width: 390px;
+    margin-left: 150px;
+    margin-top: 20px; 
+    border-radius: 10px;
+    border: none;
+}
+.oruse{
+    font-size:20px;
+    margin-left: 100px;
+    /* width: 300px; */
+    text-align: center;
+  color: #8D94AF;
+  font-style: normal;
+  font-family: 'Roboto Flex', sans-serif;
+    
+}
+.google_btn_register_pg{
+    height: 55px;
+    width: 390px;
+    margin-left: 150px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background: white;
+    font-family: 'Roboto Flex', sans-serif;
+    color: #939CBC;
+
+}
+.googlelogo_text{
+    font-size: 18px;
+    color:#939CBC;
+    margin-left: 20px;
+  
+}
+.google_btn_register_pg img{
+    height: 30px;
+    width: 30px;
+
+}
+/* Form right side */
+.full_form_div {
+    display: flex;
+  
+}
+.register_img{
+    height: 390px;
+    width: 430px;
+    margin-top: 50px;
+    margin-left: 170px;
+}
+
+
+
+
+.img_register_btn button{
+margin-left: 200px;
+margin-top: 100px;
+  width: 350px;
+  height: 55px;
+ background: #3161F1;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+select{
+    color: #939CBC;
+}
+input{
+    color:#939CBC;
+}
+.form_data{
+    color: #939CBC;
 }
