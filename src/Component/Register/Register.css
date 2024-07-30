@@ -1,8 +1,4 @@
-.main_register_div{
-    background: linear-gradient(to right, #DAE7F7, #CCE3F5, #EFF3FF) ;
-    /* height:40rem */
-    min-height: 100vh;
-}
+
 .heading_register{
     color:#3161F1;
     font-family:'knewave', sans-serif ;
@@ -32,6 +28,7 @@ align-items: center;
     margin-top: -20px;
     border-radius: 10px;
     border: none;
+   font-size: 18px;
 }
 .date_gender{
     display: flex;
@@ -46,6 +43,7 @@ align-items: center;
     margin-left: 10px;
     border-radius: 10px;
     border: none;
+    font-size: 18px;
 }
 .date_gender select{
     width: 190px;
@@ -53,6 +51,8 @@ align-items: center;
     margin-left: 10px;
     border-radius: 10px;
     border: none;
+    font-size: 18px;
+
 }
 
 .Phone_number{
@@ -62,6 +62,8 @@ align-items: center;
     margin-top: 30px;
     border-radius: 10px;
     border: none;
+    font-size: 18px;
+
 }
 
 .otp{
@@ -76,6 +78,8 @@ align-items: center;
     margin-left: 10px; 
     border-radius: 10px;
     border: none;
+    font-size: 18px;
+
 }
 .otp button{
     background: #3161F1;
@@ -102,6 +106,8 @@ align-items: center;
     margin-top: 20px; 
     border-radius: 10px;
     border: none;
+    font-size: 18px;
+
 }
 .oruse{
     font-size:20px;
@@ -153,7 +159,10 @@ align-items: center;
 
 
 
-
+.right_one{
+    display: flex;
+   
+}
 .img_register_btn button{
 margin-left: 200px;
 margin-top: 100px;
@@ -172,4 +181,10 @@ input{
 }
 .form_data{
     color: #939CBC;
+   
 }
+
+.fullname::placeholder,.date_gender input::placeholder,.date_gender select::placeholder,.otp input::placeholder, .Phone_number::placeholder, .email::placeholder, .country_select::placeholder, .state_select::placeholder {
+    font-size: 14px; /* Smaller font size for placeholders */
+    color: #888; /* Optional: lighter color for placeholders */
+  }

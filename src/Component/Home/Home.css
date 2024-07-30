@@ -1,81 +1,168 @@
 html, body {
     height: 100%;
     margin: 0;
-    font-family: 'Knewave', sans-serif; 
+    font-family: 'Knewave', sans-serif;
 }
 
 .home_content_div {
-    position: relative; 
-    height: 100vh; 
+    position: relative;
+    height: 100vh;
 }
 
 .home_content {
     position: absolute;
-    top: 100px; 
-    left: 50%; 
-    transform: translateX(-50%); 
-    text-align: center; 
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
 }
 
 .blue_head {
-    color:#3161F1; 
+    color: #3161F1;
     font-size: 3rem;
-    /* width: 400px;  */
-    font-family: 'Knewave', sans-serif; 
-    margin: 0; 
+    font-family: 'Knewave', sans-serif;
+    margin: 0;
 }
 
 .grey_head {
     color: #8D94AF;
-    font-size: 2rem; 
-    font-family: 'Knewave', sans-serif; 
-    margin: 0; 
+    font-size: 2rem;
+    font-family: 'Knewave', sans-serif;
+    margin: 0;
 }
-/* .product_item{
-    height: 6rem;
-    width: 7rem;
-    border-radius: 10px;
-    margin-top: 60px;
-    background: white;
-} */
+
 .product_item_list {
     display: flex;
     width: 700px;
-    flex-wrap: wrap; 
-    justify-content: center; 
-    gap: 20px; 
-    padding: 20px; 
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
     margin-top: 40px;
 }
 
 .product_item {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center content horizontally */
-    justify-content: center; /* Center content vertically */
+    align-items: center;
+    justify-content: center;
     height: 7rem;
-    width: 7rem; /* Adjust width to fit 4 items per row */
+    width: 7rem;
     border-radius: 10px;
     padding: 40px;
     background: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: for a slight shadow */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
 }
 
 .product_image {
-    width: 2rem; /* Adjust as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 0.5rem; 
+    width: 2rem;
+    height: auto;
+    margin-bottom: 0.5rem;
     margin-top: 30px;
 }
 
 .product_name {
-    font-size: 0.9rem; /* Adjust font size as needed */
+    font-size: 0.9rem;
     text-align: center;
     font-weight: bold;
     font-family: 'Roboto Flex', sans-serif;
-    color: #333; /* Adjust text color as needed */
+    color: #333;
 }
+
 .product_item.selected {
-    border: 2px solid green; /* Green border when selected */
+    border: 2px solid green;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .home_content {
+        top: 50px;
+    }
+
+    .blue_head {
+        font-size: 2rem;
+    }
+
+    .grey_head {
+        font-size: 1.5rem;
+    }
+
+    .product_item_list {
+        width: 100%;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .product_item {
+        height: 6rem;
+        width: 6rem;
+        padding: 20px;
+    }
+
+    .product_image {
+        width: 1.5rem;
+        margin-top: 20px;
+    }
+
+    .product_name {
+        font-size: 0.8rem;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .logo img {
+        width: 80px; /* Adjust as needed */
+    }
+
+    .logo p {
+        font-size: 1.2rem; /* Adjust as needed */
+    }
+}
+
+@media (max-width: 480px) {
+    .blue_head {
+        font-size: 1.5rem;
+    }
+
+    .grey_head {
+        font-size: 1rem;
+    }
+
+    .product_item {
+        height: 5rem;
+        width: 5rem;
+        padding: 10px;
+    }
+
+    .product_image {
+        width: 1rem;
+        margin-top: 10px;
+    }
+
+    .product_name {
+        font-size: 0.7rem;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .logo img {
+        width: 60px; /* Adjust as needed */
+    }
+
+    .logo p {
+        font-size: 1rem; /* Adjust as needed */
+    }
 }
